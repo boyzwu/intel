@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Inter主页</title>
+    <!--bootstrap的兼容问题 主要是IE的-->
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge"/>
+    <!--让bootstrap兼容国产高速浏览器-->
+    <meta name="randerer" content="webkit"/>
+    <!--实现相应式效果的标签-->
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href= "css/inter.css"/>
+    <!-- [if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script> 
+    <![endif]-->
+
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!--在768以下时显示的导航条-->
+
+
+            <div class="nav navbar-header">
+
+                    <!--<span class="col-xs-offset-8 hidden-sm hidden-md hidden-lg glyphicon glyphicon-search"
+                          style="font-size:20px;line-height:47px;"></span>-->
+
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#Data">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                    <a href="#"  class="navbar-brand">
+
+                    </a>
+
+            </div>
+            <!--768以上显示的导航条-->
+            <div class="collapse navbar-collapse"  id="Data">
+                <div class="dropdown navbar-left"><!--下拉菜单-->
+                    <a class="btn btn-default btn-1"  role="button" data-toggle="dropdown">
+                        菜单
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">英特尔产品</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">热门话题</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">用户</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">购买</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">产品支持</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">关于英特尔</a></li>
+                    </ul>
+                </div>
+
+                <!--最右侧的两个按钮-->
+                <ul class="nav navbar-nav  navbar-right">
+                    <li>
+                        <a href="#">china(简体中文)</a>
+                    </li>
+                    <li class="dropdown" >
+                        <a class="btn btn-default btn-2" role="button" data-toggle="dropdown">
+                            登陆
+                        </a>
+                        <ul class="dropdown-menu">
+                            <!--<li><h1>登录</h1></li>
+                            <li>宁是否在英特尔工作</li>
+                            <li><input type="text" class="form-control" placeholder="用户名"/></li>
+                            <li><input type="password" class="form-control"placeholder="密码"/></li>
+                            <li>您登陆表面您同意我们的条款</li>
+                            <li><button class="btn btn-sm btn-info">登陆</button></li>-->
+                            <div class="panel">
+                                <div class="panel-body">
+                                    <h3>登录</h3>
+                                    <p>您是否在英特尔工作？<a href="#">在此登录&gt;</a></p>
+                                    <form>
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" placeholder="用户名">
+                                        </div>
+                                        <div class="form-group">
+                                            <input class="form-control" type="password" placeholder="密码">
+                                        </div>
+                                        <p class="form-control-static">您登录表明您同意我们的服务条款</p>
+                                        <button class="btn btn-info btn-xs" type="button">登录</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+
+                </ul>
+                <div class=" navbar-right">
+                    <form action="#" class="navbar-form form-inline">
+                        <div class="has-feedback">
+                            <label for="search" >查找内容 | </label>
+
+
+                            <input type="text" class="form-control" id="search"/>
+
+                            <span class="glyphicon glyphicon-search form-control-feedback"
+                                  style="color:#000"></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+    </nav>
+
+    <section class="container" >
+        <h3 class="row">
+            欢迎来到英特尔 <sup>®</sup>
+        </h3>
+        <div class="row">
+            <div class="col-md-8 col-xs-12">
+                <img src="img/intel.web.864.486.1.jpg" alt="" class="img-responsive"/>
+                <div class="img_title">
+                    <h2>五代酷睿芯，强劲创体验</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Alias aliquid architecto at facilis fugiat labore necessitatibus placeat,
+                        porro tenetur velit!</p>
+                    <button class="btn btn-sm btn-info">立即探索第五代智能因特尔处理器</button>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="col-md-12 col-sm-6 col-xs-12 col-sm-offset-0 col-md-offset-1" id="zhezhao-img">
+                    <img src="img/intel.web.368.207.1.jpg" alt="" width="100%"/>
+                    <div id="zhezhao">
+                        <h3>解密2合1电脑</h3>
+                        <p>打在英特尔 Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                        <a href="#">了解更多</a>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-offset-1 col-md-offset-1 col-sm-5 col-xs-12 ">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img src="img/intel.web.81.108.png" alt=""/>
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <ul class="list-unstyled">
+                                <li><a href="#">英特尔酷睿M处理器></a></li>
+                                <li><a href="#">神奇的实感技术></a></li>
+                                <li><a href="#">英特尔凌动处理器></a></li>
+                                <li><a href="#">2015台北国际电脑展></a></li>
+                                <li><a href="#">风暴英雄游戏道具兑换></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="row">
+        <div class="container">
+            <div class="col-md-6 col-xs-12">
+                <ul class="col-sm-6 col-xs-12 list-unstyled">
+                    <li><h4>关于因特尔</h4></li>
+                    <li><a href="#">公司信息</a></li>
+                    <li><a href="#">投资者关系</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">新闻发布室</a></li>
+                    <li><a href="#">网站地图</a></li>
+                    <li><a href="#">工作</a></li>
+                </ul>
+                <ul class="col-sm-6 col-xs-12 list-unstyled">
+                    <li><h4>支持</h4></li>
+                    <li><a href="#">支持主页</a></li>
+                    <li><a href="#">下载中心</a></li>
+                    <li><a href="#">产品规范（ARK）</a></li>
+                    <li><a href="#">保修支持</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <ul class="col-sm-6  col-xs-12 list-unstyled">
+                    <li><h4>法律声明</h4></li>
+                    <li><a href="#">使用条款</a></li>
+                    <li><a href="#">商标</a></li>
+                    <li><a href="#">隐私条款</a></li>
+                    <li><a href="#">Cookie</a></li>
+                </ul>
+                <ul class="col-sm-6 col-xs-12 list-unstyled">
+                    <li><h4>社交</h4></li>
+                    <li><a href="#">英特尔社区</a></li>
+                    <li><a href="#">英特尔中国微博</a></li>
+                    <li><a href="#">英特尔芯品汇微博</a></li>
+                    <li><a href="#">英特尔商用频道微博</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="container">
+            <p>英特尔最下面 字</p>
+        </div>
+    </footer>
+
+
+
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
